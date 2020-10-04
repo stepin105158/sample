@@ -144,7 +144,7 @@ int a=0,i=0;
 	//scanf("%s",&pword);
 	int y=adLogin(uname,pword);
 
-		if(y==2)
+		if(y==1)
 	{printf("\n\n ##### Voting Statics ####");
 printf("\n %s - %d ", CANDIDATE1, votesCount1);
 printf("\n %s - %d ", CANDIDATE2, votesCount2);
@@ -253,7 +253,7 @@ int leadingCandidate(int x,int y){
 	//scanf("%s",&pword);
 	int p=adLogin(uname,pword);
 
-		if(p==2)
+		if(p==1)
 	{
 	     printf("\n\n  #### Leading Candiate ####\n\n");
      if(votesCount1>votesCount2 && votesCount1>votesCount3 && votesCount1 >votesCount4)
