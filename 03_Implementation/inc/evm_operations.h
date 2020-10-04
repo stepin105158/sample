@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include<conio.h>
+//#include<conio.h>
 #include<time.h>
 #include <string.h>
 #define BUFFER_SIZE 1000
