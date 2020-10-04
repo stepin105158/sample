@@ -46,10 +46,10 @@ void test_boothid(void) {
 }
 
 void test_CheckVoterId(void) {
-  CU_ASSERT(-1 ==CheckVoterId(123));
+  CU_ASSERT(-1 ==CheckVoterId(0,123,0,0));
 
   /* Dummy fail*/
-  CU_ASSERT(-1 == armstrong(1077));
+  CU_ASSERT(-1 == armstrong(0,1077,0,0));
 }
 
 void test_adLogin(void) {
