@@ -6,7 +6,7 @@
 
 
 void test_boothid(void);
-void test_CheckVoterId(void);
+
 void test_adLogin(void);
 void test_leadingCandidate(void);
 
@@ -21,7 +21,7 @@ int main() {
 
 
   CU_add_test(suite, "boothid", test_boothid);
-  CU_add_test(suite, "CheckVoterId", test_CheckVoterId);
+  
   CU_add_test(suite, "adLogin", test_adLogin);
   CU_add_test(suite, "leadingCandidate", test_leadingCandidate);
 
@@ -45,12 +45,6 @@ void test_boothid(void) {
   CU_ASSERT(1 == boothid(15));
 }
 
-void test_CheckVoterId(void) {
-  CU_ASSERT(-1 ==CheckVoterId(0,123,0,0));
-
-  /* Dummy fail*/
-  CU_ASSERT(-1 == armstrong(0,1077,0,0));
-}
 
 void test_adLogin(void) {
   CU_ASSERT(1 == adLogin("admin","passkey"));
