@@ -5,7 +5,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/properties_number.c\
+src/evm_operations.c\
 
 # All test source files
 TEST_SRC = src/evm_operations.c\
